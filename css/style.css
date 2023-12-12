@@ -1,0 +1,80 @@
+/*site-header*/
+.site-header {
+    background-color: #fff;
+    width: 1440px;
+    color: #000;
+}
+
+.sitenav {
+    width: 1100px;
+}
+
+.sitenav-logo {
+    width: 227px;
+    height: 59.18px;
+}
+
+.sitenav-list {
+    width: 610px;
+}
+.sitenav-link{
+    text-decoration: none;
+}
+
+/*hero*/
+.hero {
+    background-color: black;
+    width: 1440px;
+    height: 550px;
+    color: #fff;
+}
+
+
+.hero-content {
+   width: 390px;
+}
+.hero-content-line{
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+.hero-img {
+    width: 510px;
+    height: 510px;
+}
+
+/*feaures*/
+.feaures {
+    width: 1440px;
+}
+
+.feaures h2 {
+    font-family: Roboto Condensed;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+.feaures-item{
+width: 340px;
+}
+
+/*sale*/
+.sale {
+    background-color: #252420;
+    color: #fff;
+}
+.sale-content{
+    width: 440px;
+}
+.sale-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+/*site-footer*/
+.site-footer{
+    background-color: #f8f8f8;
+}
