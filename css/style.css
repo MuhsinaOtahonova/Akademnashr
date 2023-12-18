@@ -4,16 +4,24 @@ body{
     font-family: "Roboto", "Arial", sans-serif;
     letter-spacing: 0.5px;
 }
+*:focus{
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
 /* site-header */
 .site-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 5px solid #ff7500;
     background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .header-right{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 .sitenav-list{
     display: flex;
@@ -46,11 +54,15 @@ body{
     opacity: 0.6;
 }
 .main-link{
+    display: inline-block;
+    padding: 12px 24px;
     font-size: 13px;
     line-height: 15px;
     background-color: #ff7500;
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
     transition: opacity 0.4s ease;
 }
 .main-link:hover{
@@ -63,9 +75,12 @@ body{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
+    border: none ;
 }
 /* hero */
 .hero{
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,8 +99,13 @@ body{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 /* feaures */
+.feaures{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
 .feaures-heading{
     width: 440px;
     font-size: 72px;
@@ -96,12 +116,17 @@ body{
 .feaure-list{
     display: flex;
     list-style: none;
+    padding: 0;
     justify-content: space-between;
 }
 .feaure{
     width: 340px;
 }
 .feaure-icon-wrapper{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255,117,0,0.2);
@@ -114,6 +139,7 @@ body{
 /* sale */
 .promo{
     display: flex;
+    border-radius: 12px;
     justify-content: space-between;
     align-items: center;
     background-color: #252420;
@@ -133,10 +159,13 @@ body{
 .promo-img{
     width: 440px;
     height: 440px;
+    border-radius: 12px;
     object-fit: cover;
 }
 /* site footer */
 .site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 .site-footer-top{
@@ -146,10 +175,12 @@ body{
 }
 .site-footer ul{
     list-style: none;
+    padding: 0;
 }
 .site-footer-socials{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 .site-footer-socials a{
     color: #252420;
@@ -162,6 +193,7 @@ body{
 }
 .site-footer-divider{
     height: 2px;
+    border: 0;
     background-color: rgba(37,36,32,0.5);
 }
 .site-footer-bottom{
@@ -178,6 +210,6 @@ body{
 .site-footer-links a:hover{
     color: #ff7500;
 }
-.site-footer-links a:focus{
+.site-footer-links a:active{
     opacity: 0.6;
 }
