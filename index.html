@@ -1,165 +1,321 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akademnashr</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Wedding</title>
 </head>
 
 <body>
-
-    <!--site-header-->
-    <header class="site-header">
-        <a class="logo-link" href="index.html"><img src="img/logo.svg" alt="logo"></a>
-        <div class="header-right">
-            <nav class="sitenav">
-                <ul class="sitenav-list">
-                    <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-                    <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-                    <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-                    <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-                </ul>
-            </nav>
-            <a class="main-link" href="#">Röyxatdan Ötish</a>
+    <div id="countdown">Coming soon...</div>
+    <!--Slider start-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/dugun12.jpeg" class="d-block w-100 firstImages" alt="...">
+                <div class="title">
+                    <h2 class="fs-1">A Celebration to Remember</h2>
+                </div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div>
+                        <h5 class="fs-3">Events</h5>
+                        <p class="fst-italic">Celebrate the significant moments in your life in a truly spectacular
+                            barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries, holidays
+                            or wedding gatherings, creating memories to last.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="img/dugun13.jpeg" class="d-block w-100 firstImages" alt="...">
+                <div class="title">
+                    <h2 class="fs-1">A Celebration to Remember</h2>
+                </div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div>
+                        <h5 class="fs-3">Events</h5>
+                        <p class="fst-italic">Celebrate the significant moments in your life in a truly spectacular
+                            barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries, holidays
+                            or wedding gatherings, creating memories to last.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Slider end-->
+
+    <header class="header">
+        <div id="countdown2">Coming soon...</div>
     </header>
 
-    <main>
-        <!--hero-->
-        <section class="hero">
-            <div class="hero-content">
-                <hr class="orange-line">
-                <h2 class="hero-heading">Pythonda dasturlash<br>asoslari</h2>
-                <p class="hero-text">
-                    Dasturlash asoslariga oid o‘zbek tilidagi ilk
-                    eng mukammal qo‘llanma. <br>Kitobning har bir bo‘limi
-                    uchun maxsus video darslar yozilgan bo‘lib, <br>ularga
-                    kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.
+    <!--Invitation text start-->
+    <section class="p-5 text-center invitationText">
+        <div class="container">
+            <hr class="bracket"><i class="bi bi-arrow-through-heart heart"></i>
+            <h2 class="mb-5">Wedding Invitation</h2>
+            <div class="photo-gallery">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <div class="rounded-circle photo">
+                            <img src="img/damat.jpeg" class="img-fluid" alt="...">
+                        </div>
+                        <p class="fw-bold">Blabla</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="rounded-circle photo">
+                            <img src="img/gelin.jpeg" class="img-fluid" alt="...">
+                        </div>
+                        <p class="fw-bold">Lalala</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, blanditiis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum libero vero harum quaerat, optio
+                    est
+                    dolore deleniti possimus! Laborum, in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo voluptates, unde debitis
+                    molestias fugit quam cupiditate, blanditiis perferendis natus minus obcaecati tempora perspiciatis
+                    est!
                 </p>
-                <a class="main-link" href="#">Buyurtma berish</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, nisi.</p>
+            </div>
+        </div>
+    </section>
+    <!--Invitation text end-->
+
+    <!--Date text start-->
+    <section class="p-5 text-center dateText">
+        <div class="container ">
+            <div class="month ">
+                <div class="horizontal-line"></div>
+                <p class="fs-4">Mart</p>
+                <div class="horizontal-line"></div>
+            </div>
+            <div class="date">
+                <p class="fw-light fs-2 ps-5">Sunday</p>
+                <div class="ml-auto mr-auto pe-4">
+                    <p class="fs-1 fw-bold date">12</p>
+                </div>
+                <p class="fw-light fs-2 pe-5">09:25</p>
+            </div>
+            <div class="year">
+                <div class="horizontal-line"></div>
+                <p class="fs-4">2024</p>
+                <div class="horizontal-line"></div>
             </div>
 
-            <img class="hero-img" src="img/python-book.png" alt="kitob" width="510" height="510">
-        </section>
+        </div>
+    </section>
+    <!--Date text end-->
 
 
-        <!--feaures-->
-        <section class="feaures">
-            <hr class="orange-line">
-            <h2 class="feaures-heading">Nega aynan Akademnashr?</h2>
-            <ul class="feaure-list">
-                <li class="feaure">
-                    <div class="feaure-icon-wrapper">
-                        <img src="img/cursor-click.svg" alt="" width="56" height="56">
+    <!--Adress start-->
+    <section class="adres">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Adres -->
+                    <div class="address mt-5">
+                        <h2>Empire State Building</h2>
+                        <p>123 Wedding Street, Lovelyville, ABC 12345</p>
+                        <p>E-posta: example@example.com</p>
                     </div>
-                    <h3 class="feaure-title">Oson buyurtma qilish</h3>
-                    <p class="feaure-info">Akademnashr.uz saytidan özingizga yoqqan kitobni sodda usulda buyurtma qila
-                        olasiz.</p>
-                </li>
-                <li class="feaure">
-                    <div class="feaure-icon-wrapper">
-                        <img src="img/sparkles.svg" alt="" width="56" height="56">
+                </div>
+                <div class="col-md-6">
+                    <!-- Harita -->
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.415320467986!2d-73.98695128411432!3d40.75605497932937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xae84f4f3f91e995f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1625633895588!5m2!1sen!2sus"
+                            width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <h3 class="feaure-title">Oson buyurtma qilish</h3>
-                    <p class="feaure-info">Akademnashr.uz saytidan özingizga yoqqan kitobni sodda usulda buyurtma qila
-                        olasiz.</p>
-                </li>
-                <li class="feaure">
-                    <div class="feaure-icon-wrapper">
-                        <img src="img/lightning-bolt.svg" alt="" width="56" height="56">
-                    </div>
-                    <h3 class="feaure-title">Oson buyurtma qilish</h3>
-                    <p class="feaure-info">Akademnashr.uz saytidan özingizga yoqqan kitobni sodda usulda buyurtma qila
-                        olasiz.</p>
-                </li>
-            </ul>
-        </section>
 
-
-        <!--sale-->
-        <section class="promo">
-            <div class="promo-content">
-                <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-                <p class="promo-text">
-                    Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish
-                    uchun turli mashq qo’llanmalari va komikslar.
-                </p>
-                <p class="promo-text">
-                    Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong
-                        class="promo-highlight">350 ming</strong>
-                    so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
-                </p>
-                <a class="main-link" href="#">Buyurtma berish</a>
+                </div>
             </div>
-
-            <img class="promo-img" src="img/sale-img.png" alt="kitoblar" width="440" height="440">
-        </section>
-    </main>
-
-
-    <!--site-footer-->
-    <footer class="site-footer">
-        <div class="site-footer-top">
-            <a class="logo-link" href="index.html"><img src="img/logo.svg" alt="Logo" width="227" height="60"></a>
-            <ul class="site-footer-socials">
-                <li><a href="telegram" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z"
-                                fill="currentColor" />
-                        </svg></a></li>
-                <li><a href="facebok" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M12 0C8.741 0 8.333 0.014 7.053 0.072C2.695 0.272 0.273 2.69 0.073 7.052C0.014 8.333 0 8.741 0 12C0 15.259 0.014 15.668 0.072 16.948C0.272 21.306 2.69 23.728 7.052 23.928C8.333 23.986 8.741 24 12 24C15.259 24 15.668 23.986 16.948 23.928C21.302 23.728 23.73 21.31 23.927 16.948C23.986 15.668 24 15.259 24 12C24 8.741 23.986 8.333 23.928 7.053C23.732 2.699 21.311 0.273 16.949 0.073C15.668 0.014 15.259 0 12 0ZM12 2.163C15.204 2.163 15.584 2.175 16.85 2.233C20.102 2.381 21.621 3.924 21.769 7.152C21.827 8.417 21.838 8.797 21.838 12.001C21.838 15.206 21.826 15.585 21.769 16.85C21.62 20.075 20.105 21.621 16.85 21.769C15.584 21.827 15.206 21.839 12 21.839C8.796 21.839 8.416 21.827 7.151 21.769C3.891 21.62 2.38 20.07 2.232 16.849C2.174 15.584 2.162 15.205 2.162 12C2.162 8.796 2.175 8.417 2.232 7.151C2.381 3.924 3.896 2.38 7.151 2.232C8.417 2.175 8.796 2.163 12 2.163ZM5.838 12C5.838 8.597 8.597 5.838 12 5.838C15.403 5.838 18.162 8.597 18.162 12C18.162 15.404 15.403 18.163 12 18.163C8.597 18.163 5.838 15.403 5.838 12ZM12 16C9.791 16 8 14.21 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12C16 14.21 14.209 16 12 16ZM16.965 5.595C16.965 4.8 17.61 4.155 18.406 4.155C19.201 4.155 19.845 4.8 19.845 5.595C19.845 6.39 19.201 7.035 18.406 7.035C17.61 7.035 16.965 6.39 16.965 5.595Z"
-                                fill="currentColor" />
-                        </svg>
-                    </a></li>
-                <li><a href="instagram" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM17.568 8.16C17.388 10.056 16.608 14.664 16.212 16.788C16.044 17.688 15.708 17.988 15.396 18.024C14.7 18.084 14.172 17.568 13.5 17.124C12.444 16.428 11.844 15.996 10.824 15.324C9.636 14.544 10.404 14.112 11.088 13.416C11.268 13.236 14.34 10.44 14.4 10.188C14.412 10.152 14.412 10.044 14.34 9.972C14.268 9.912 14.172 9.936 14.088 9.948C13.98 9.972 12.3 11.088 9.024 13.296C8.544 13.62 8.112 13.788 7.728 13.776C7.296 13.764 6.48 13.536 5.868 13.332C5.112 13.092 4.524 12.96 4.572 12.54C4.596 12.324 4.896 12.108 5.46 11.88C8.964 10.356 11.292 9.348 12.456 8.868C15.792 7.476 16.476 7.236 16.932 7.236C17.028 7.236 17.256 7.26 17.4 7.38C17.52 7.476 17.556 7.608 17.568 7.704C17.556 7.776 17.58 7.992 17.568 8.16Z"
-                                fill="currentColor" />
-                        </svg>
-                    </a></li>
-            </ul>
         </div>
-        <hr class="site-footer-divider">
-        <div class="site-footer-bottom">
-            <ul class="site-footer-links">
-                <li><a href="#">Bosh Sahifa</a></li>
-                <li><a href="#">Kitoblar</a></li>
-                <li><a href="#">Aksiyalar</a></li>
-                <li><a href="#">Yangiliklar</a></li>
-                <li><a href="#">Kontaktlar</a></li>
-            </ul>
-            <ul class="site-footer-links">
-                <li><a href="#">Bosh Sahifa</a></li>
-                <li><a href="#">Kitoblar</a></li>
-                <li><a href="#">Aksiyalar</a></li>
-                <li><a href="#">Yangiliklar</a></li>
-                <li><a href="#">Kontaktlar</a></li>
-            </ul>
-            <ul class="site-footer-links">
-                <li><a href="#">Bosh Sahifa</a></li>
-                <li><a href="#">Kitoblar</a></li>
-                <li><a href="#">Aksiyalar</a></li>
-                <li><a href="#">Yangiliklar</a></li>
-                <li><a href="#">Kontaktlar</a></li>
-            </ul>
-            <ul class="site-footer-links">
-                <li><a href="#">Bosh Sahifa</a></li>
-                <li><a href="#">Kitoblar</a></li>
-                <li><a href="#">Aksiyalar</a></li>
-                <li><a href="#">Yangiliklar</a></li>
-                <li><a href="#">Kontaktlar</a></li>
-            </ul>
+    </section>
+    <!--Adress end-->
+
+
+
+    <!--form start-->
+    <section class="p-5 bg-orange boyut">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="form-container">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name & Surname</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="8"
+                                    placeholder="Enter your message here"></textarea>
+                            </div>
+                            <div class="join">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="acceptance" id="accept"
+                                        value="accept" checked>
+                                    <label class="form-check-label" for="accept">
+                                        Join
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="acceptance" id="decline"
+                                        value="decline">
+                                    <label class="form-check-label" for="decline">
+                                        Don't Join
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <!--form end-->
 
-    </footer>
 
+    <!--Kesik start-->
+    <section class="p-5 text-center">
+        <div class="container">
+            <hr class="bracket"><i class="bi bi-arrow-through-heart heart"></i>
+            <h2 class="mb-5">Love Story</h2>
+        </div>
+    </section>
+    <!--Kesik end-->
+
+
+
+    <!-- Gallery start -->
+<section class="photo-gallery-section py-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Ortadaki büyük fotoğraf -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun1.webp" class="card-img-top" alt="Central Photo" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body text-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat sunt veritatis
+                            quod ratione dicta!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Diğer fotoğraflar -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun2.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun3.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun4.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun5.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun6.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="img/dugun7.webp" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!-- Gallery end -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-s">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="carousel slide" id="modalCarousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/dugun4.jpeg" class="img-fluid" alt="Photo 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dugun5.jpeg" class="img-fluid" alt="Photo 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dugun6.jpeg" class="img-fluid" alt="Photo 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/dugun7.webp" class="img-fluid" alt="Photo 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer start -->
+   <footer class="p-4 text-center text-black footer">
+    <div class="container">
+        <p class="lastText">Daniel & Olivie</p>
+    </div>
+</footer>
+<!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
+
+
