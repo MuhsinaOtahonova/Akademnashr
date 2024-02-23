@@ -16,24 +16,26 @@
 </head>
 
 <body>
-    <div id="countdown">Coming soon...</div>
+    <div class="coming" id="countdown">Coming soon...</div>
     <!--Slider start-->
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="container-fluid">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/dugun12.jpeg" class="d-block w-100 firstImages" alt="...">
-                <div class="title">
-                    <h2 class="fs-1">A Celebration to Remember</h2>
-                </div>
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <div>
-                        <h5 class="fs-3">Events</h5>
-                        <p class="fst-italic">Celebrate the significant moments in your life in a truly spectacular
-                            barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries, holidays
-                            or wedding gatherings, creating memories to last.</p>
+                <div class="carousel-item active">
+                    <img src="img/dugun12.jpeg" class="d-block w-100 firstImages" alt="...">
+                    <div class="title">
+                        <h2 class="fs-1">A Celebration to Remember</h2>
+                    </div>
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div>
+                            <h5 class="fs-3">Events</h5>
+                            <p class="fst-italic">Celebrate the significant moments in your life in a truly spectacular
+                                barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries,
+                                holidays
+                                or wedding gatherings, creating memories to last.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
             <div class="carousel-item active">
                 <img src="img/dugun13.jpeg" class="d-block w-100 firstImages" alt="...">
                 <div class="title">
@@ -43,7 +45,8 @@
                     <div>
                         <h5 class="fs-3">Events</h5>
                         <p class="fst-italic">Celebrate the significant moments in your life in a truly spectacular
-                            barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries, holidays
+                            barefoot luxury setting. Karpaz Gate Marina can cater for birthdays, anniversaries,
+                            holidays
                             or wedding gatherings, creating memories to last.</p>
                     </div>
                 </div>
@@ -58,7 +61,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+</div>
     <!--Slider end-->
 
     <header class="header">
@@ -103,7 +106,7 @@
 
     <!--Date text start-->
     <section class="p-5 text-center dateText">
-        <div class="container ">
+        <div class="container-fluid">
             <div class="month ">
                 <div class="horizontal-line"></div>
                 <p class="fs-4">Mart</p>
@@ -129,7 +132,7 @@
 
     <!--Adress start-->
     <section class="adres">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <!-- Adres -->
@@ -157,7 +160,7 @@
 
     <!--form start-->
     <section class="p-5 bg-orange boyut">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="form-container">
@@ -200,7 +203,7 @@
 
 
     <!--Kesik start-->
-    <section class="p-5 text-center">
+    <section class="p-5 text-center kesik">
         <div class="container">
             <hr class="bracket"><i class="bi bi-arrow-through-heart heart"></i>
             <h2 class="mb-5">Love Story</h2>
@@ -211,104 +214,114 @@
 
 
     <!-- Gallery start -->
-<section class="photo-gallery-section py-5">
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <!-- Ortadaki büyük fotoğraf -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun1.webp" class="card-img-top" alt="Central Photo" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body text-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat sunt veritatis
-                            quod ratione dicta!</p>
+    <section class="photo-gallery-section py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- Ortadaki büyük fotoğraf -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun1.webp" class="card-img-top" alt="Central Photo" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body text-center">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat sunt veritatis
+                                quod ratione dicta!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer fotoğraflar -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun2.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun3.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun4.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun5.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun6.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="img/dugun7.webp" class="card-img-top" alt="Photo 1" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Gallery end -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-s">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close text-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div class="carousel slide" id="modalCarousel" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/dugun4.jpeg" class="img-fluid" alt="Photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dugun5.jpeg" class="img-fluid" alt="Photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dugun6.jpeg" class="img-fluid" alt="Photo 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dugun7.webp" class="img-fluid" alt="Photo 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
-            <!-- Diğer fotoğraflar -->
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun2.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun3.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun4.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun5.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun6.jpeg" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card h-100">
-                    <img src="img/dugun7.webp" class="card-img-top" alt="Photo 1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-           
         </div>
     </div>
-</section>
-<!-- Gallery end -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-s">
-        <div class="modal-content bg-transparent border-0">
-            <div class="modal-body p-0">
-                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="carousel slide" id="modalCarousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/dugun4.jpeg" class="img-fluid" alt="Photo 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/dugun5.jpeg" class="img-fluid" alt="Photo 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/dugun6.jpeg" class="img-fluid" alt="Photo 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/dugun7.webp" class="img-fluid" alt="Photo 3">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+
+
+    <!-- Footer start -->
+    <footer class="p-4 text-center text-black footer">
+        <div class="container-fluid">
+            <p class="lastText">Daniel & Olivie</p>
         </div>
-    </div>
-</div>
-
-
-<!-- Footer start -->
-   <footer class="p-4 text-center text-black footer">
-    <div class="container">
-        <p class="lastText">Daniel & Olivie</p>
-    </div>
-</footer>
-<!-- Footer end -->
+    </footer>
+    <!-- Footer end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -317,5 +330,3 @@
 </body>
 
 </html>
-
-

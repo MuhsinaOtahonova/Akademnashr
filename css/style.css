@@ -240,3 +240,6 @@ label {
     transform: scale(1.09); /* Büyüklük faktörü */
     transition: transform 0.5s ease; /* Geçiş efekti */
 }
+.photo-gallery-section, .kesik{
+    background-color: #f2f2f2;
+}
