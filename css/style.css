@@ -243,3 +243,10 @@ label {
 .photo-gallery-section, .kesik{
     background-color: #f2f2f2;
 }
+
+
+@media (max-width: 767px) {
+    .form-container {
+        width: 100%;
+    }
+}
